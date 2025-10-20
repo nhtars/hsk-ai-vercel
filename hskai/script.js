@@ -1,4 +1,4 @@
-const OPENAI_API_KEY = "sk-xxxxxxxxxxxxxxxx"; // 🟢 Dán API key của bạn
+const OPENAI_API_KEY = "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"; // 🟢 Dán API key của bạn
 const HSK_BASE = "https://raw.githubusercontent.com/nhtars/hsk-dataset/main/data";
 
 let level = 1;
@@ -62,3 +62,4 @@ function addMsg(role, text) {
   };
   document.getElementById("chat").appendChild(div);
 }
+
